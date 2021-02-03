@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    overflow-x: hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.jumbotron {
+    background-image: url(./img/surf.jpg);
+    background-size: cover;
+}
+
+.first-section h2 {
+    margin-top: 120px;
+    margin-bottom: 25px;
+}
+
+.first-section .logo {
+    margin-top: 120px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#para {
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    color: white;
+}
+
+#para1 {
+    font-size: 30px;
+    margin-bottom: 70px;
+    color: yellow;
+    font-weight: lighter;
+}
+
+.btn1 {
+    background-color: yellow;
+    width: 200px;
+    border: 2px solid yellow;
+    padding: 15px;
+}
+
+.btn2 {
+    border: 2px solid yellow;
+    background: transparent;
+    width: 200px;
+    padding: 15px;
+    margin-left: 2rem;
+    color: white;
+}
+
+.icon {
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+.icon1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.icon1 i {
+    cursor: pointer;
+}
+
+.second-section {
+    position: relative;
+    margin-top: -32px;
+}
+
+.second-section h3 {
+    text-align: center;
+    margin-top: 77px;
+}
+
+nav ul li {
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+#home {
+    border: 2px solid yellow;
+}
+
+#third-section {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+#third-section p {
+    text-align: center;
+}
+
+#para2 {
+    color: black;
+    font-weight: bold;
+}
+
+#para3 {
+    color: white;
+    font-size: 15px;
+}
+
+#para4 {
+    color: orange;
+}
+
+#para5,
+#para6 {
+    color: orange;
+}
+
+.talk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 140px 220px;
+}
+
+.talk>div {
+    margin: 0px 39px;
+}
+
+.about {
+    text-align: center;
+}
+
+.container h3,
+p {
+    text-align: center;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.active {
+    border-color: #ffe116;
+}
+
+.navbar-toggler .fa {
+    color: #fff;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    font-size: auto;
+}
+
+.fourth-section {
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-image: url('img/Background\ Image.png');
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section h6 {
+    font-weight: 5%;
+    color: #fff;
+}
+.icon1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: black;
+}
+.sixth-section {
+    background-color: #424245 !important;
+    width: 100%;
+}
+footer {
+    background: black;
+    color: white;
+}
+.ftext p {
+    color: #ffe116;
+    padding-left: 50px;
+}
+.social-media i {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:450px) {
+    .btn1 {
+        background-color: yellow;
+        width: 100px;
+        border: 2px solid yellow;
+        padding: 15px;
+    }
+    
+    .btn2 {
+        border: 2px solid yellow;
+        background: transparent;
+        width: 100px;
+        padding: 15px;
+        margin-left: 2rem;
+        color: white;
+    }
+}
